@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+03_wifi.py
+config.py
+cloud_secrets.py
+URUCHOMIENIE.md
+.DS_Store

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pl">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bioglow — poidełko dla ptaków online</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#203a30;background:#f0f4ef}*{box-sizing:border-box}body{margin:0}main{max-width:880px;margin:auto;padding:32px 20px}header{display:flex;justify-content:space-between;align-items:center;gap:16px}h1{font-size:32px;margin:5px 0}h2{font-size:20px;margin:0 0 20px}p{line-height:1.6}.eyebrow{color:#426552;letter-spacing:2px;font-size:12px;font-weight:700}.badge{padding:9px 13px;border-radius:30px;background:#e1e9e1;font-size:14px}.cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:26px 0}section{background:white;border:1px solid #d8e2d9;border-radius:18px;padding:25px}.value{font-size:54px;font-weight:650;line-height:1.2;font-variant-numeric:tabular-nums}.unit{font-size:18px;color:#577062}progress{width:100%;height:19px;margin-top:22px;accent-color:#398b9e}.muted{color:#64746b;font-size:14px}.note{background:#fff6dd;border-radius:14px;padding:16px 20px;font-size:14px;line-height:1.6}.ok{background:#dfeee3;color:#205838}.warn{background:#fff1c5;color:#735600}.error{background:#ffe2dd;color:#8c2c21}.status{display:inline-block;border-radius:8px;padding:5px 9px;font-size:13px;margin-top:15px}footer{margin-top:22px;font-size:13px;color:#64746b}@media(max-width:600px){.cards{grid-template-columns:1fr}header{align-items:flex-start;flex-direction:column}main{padding-top:24px}}
+</style>
+<main>
+<header><div><div class="eyebrow">BIOGLOW · SZKOLNE POIDEŁKO</div><h1>Woda dla ptaków</h1></div><span id="connection" class="badge">Łączenie…</span></header>
+<p class="muted">Pomiary z poidełka docierają przez internet. Strona sprawdza nowe dane co 15 sekund.</p>
+<div class="cards">
+<section><h2>Poziom wody</h2><div><span id="level" class="value">—</span> <span class="unit">mm</span></div><progress id="bar" max="100" value="0" aria-label="Zanurzenie czujnika"></progress><div id="level-status" class="status">Czekam na odczyt</div><p class="muted">Zakres czujnika: 0–100 mm.<br>Wskazanie wysokości nie oznacza procentu objętości zbiornika.</p></section>
+<section><h2>Substancje rozpuszczone · TDS</h2><div><span id="tds" class="value">—</span> <span class="unit">ppm</span></div><div id="tds-status" class="status">Pomiar orientacyjny</div><p class="muted">Napięcie sondy: <span id="voltage">—</span> V.<br>Wynik wymaga zanurzonej sondy i spokojnej wody.</p></section>
+</div>
+<div class="note"><strong>TDS nie potwierdza bezpieczeństwa wody.</strong> Czujnik nie wykrywa bakterii. Wyniki są orientacyjne, bez kalibracji i kompensacji temperatury wody. Poidełko wymaga regularnego mycia i wymiany wody.</div>
+<footer id="updated">Oczekiwanie na pierwszy pomiar…</footer><p class="muted"><a href="https://github.com/gmrogalski/poidelko">Kod projektu i instrukcja</a></p>
+</main>
+<script src="app.js" defer></script>
+</html>

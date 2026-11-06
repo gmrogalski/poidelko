@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1430" viewBox="0 0 1800 1430">
+<rect width="1800" height="1430" fill="#f3f5f1"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#203530}.h{font-size:35px;font-weight:bold}.sub{font-size:21px;fill:#52655f}.label{font-size:22px;font-weight:bold}.body{font-size:19px}.small{font-size:16px;fill:#52655f}.pin{font-size:16px;fill:white}.num{font-size:16px;fill:#d5eadc}</style>
+<text x="65" y="62" class="h">POIDŁO • WSPÓLNE SZYNY ZASILANIA I MASY</text>
+<text x="65" y="101" class="sub">Raspberry Pi Pico 2 W / WH · szyna „+” = 3,3 V · szyna „−” = GND</text>
+<rect x="60" y="122" width="1680" height="46" rx="10" fill="#fff0cf"/>
+<text x="82" y="152" class="body">Odłącz USB przed zmianą przewodów. Obie szyny pozostają oddzielne. Kolory porównaj z oznaczeniami modułów.</text>
+<rect x="60" y="185" width="1680" height="110" rx="14" fill="white" stroke="#c9d4ce" stroke-width="2"/>
+<text x="85" y="222" class="label" style="fill:#c33737">+  3,3 V</text>
+<text x="85" y="272" class="label" style="fill:#245c9e">−  GND</text>
+<path d="M225 215 H1700" stroke="#d43d42" stroke-width="6"/>
+<path d="M225 265 H1700" stroke="#4176ae" stroke-width="6"/>
+<text x="1330" y="204" class="small">SZYNY NA PŁYTCE STYKOWEJ</text>
+<rect x="55" y="420" width="455" height="740" rx="20" fill="white" stroke="#d5dfd7" stroke-width="2"/>
+<text x="80" y="460" class="label">1. CZUJNIK POZIOMU</text>
+<text x="80" y="487" class="small">Grove 101020635 · końcówki przewodu</text>
+<rect x="90" y="715" width="110" height="345" rx="7" fill="#407d69" stroke="#1a4639" stroke-width="3"/>
+<rect x="116" y="691" width="58" height="30" rx="4" fill="#eee" stroke="#89968f"/>
+<text x="220" y="830" class="body">Ustaw pionowo,</text><text x="220" y="859" class="body">złączem u góry.</text>
+<text x="220" y="903" class="small">Zakres pomiaru:</text><text x="220" y="930" class="body">0–10 cm</text>
+<text x="80" y="1125" class="small">Część pomiarowa skierowana w dół.</text>
+<rect x="1305" y="420" width="440" height="740" rx="20" fill="white" stroke="#d5dfd7" stroke-width="2"/>
+<text x="1330" y="460" class="label">2. CZUJNIK TDS</text>
+<text x="1330" y="487" class="small">Grove 101020753 · końcówki przewodu</text>
+<rect x="1410" y="880" width="245" height="116" rx="9" fill="#34705d" stroke="#1a4639" stroke-width="3"/>
+<rect x="1426" y="912" width="40" height="43" rx="4" fill="#eee"/>
+<rect x="1495" y="915" width="55" height="40" fill="#293936"/>
+<rect x="1616" y="912" width="22" height="43" rx="4" fill="#eee"/>
+<path d="M1638 935 H1695 V1051 H1575" stroke="#333" stroke-width="5" fill="none"/>
+<rect x="1515" y="1030" width="67" height="43" rx="7" fill="#aab3b0" stroke="#333" stroke-width="2"/>
+<path d="M1515 1038 H1495 M1515 1065 H1495" stroke="#333" stroke-width="6"/>
+<text x="1330" y="1110" class="small">W wodzie: tylko sonda TDS.</text>
+<text x="1330" y="1135" class="small">Płytka TDS i Pico pozostają suche.</text>
+<rect x="730" y="355" width="300" height="820" rx="16" fill="#2c715b" stroke="#173f33" stroke-width="4"/>
+<rect x="849" y="329" width="62" height="66" rx="7" fill="#c5cecd" stroke="#4e6060" stroke-width="3"/>
+<rect x="859" y="331" width="42" height="18" rx="3" fill="#263630"/>
+<text x="880" y="320" text-anchor="middle" class="body">USB u góry ↑</text>
+<text x="880" y="1207" text-anchor="middle" class="label">Widok z góry</text>
+<rect x="850" y="885" width="60" height="70" rx="5" fill="#1d3029"/>
+<text x="880" y="914" text-anchor="middle" style="font-family:Arial;fill:white;font-size:11px">RP2350</text>
+<text x="880" y="933" text-anchor="middle" style="font-family:Arial;fill:white;font-size:10px">PICO 2 W</text>
+
+<circle cx="730" cy="410" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="415" class="num">1</text><text x="782" y="415" class="pin">GP0</text>
+<circle cx="1030" cy="410" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="415" text-anchor="end" class="num">40</text><text x="978" y="415" text-anchor="end" class="pin">VBUS</text>
+<circle cx="730" cy="446" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="451" class="num">2</text><text x="782" y="451" class="pin">GP1</text>
+<circle cx="1030" cy="446" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="451" text-anchor="end" class="num">39</text><text x="978" y="451" text-anchor="end" class="pin">VSYS</text>
+<circle cx="730" cy="482" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="487" class="num">3</text><text x="782" y="487" class="pin">GND</text>
+<circle cx="1030" cy="482" r="10" fill="#f4bf4b" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="487" text-anchor="end" class="num">38</text><text x="978" y="487" text-anchor="end" class="pin">GND</text>
+<circle cx="730" cy="518" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="523" class="num">4</text><text x="782" y="523" class="pin">GP2</text>
+<circle cx="1030" cy="518" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="523" text-anchor="end" class="num">37</text><text x="978" y="523" text-anchor="end" class="pin">3V3_EN</text>
+<circle cx="730" cy="554" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="559" class="num">5</text><text x="782" y="559" class="pin">GP3</text>
+<circle cx="1030" cy="554" r="10" fill="#f4bf4b" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="559" text-anchor="end" class="num">36</text><text x="978" y="559" text-anchor="end" class="pin">3V3 OUT</text>
+<circle cx="730" cy="590" r="10" fill="#f4bf4b" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="595" class="num">6</text><text x="782" y="595" class="pin">GP4</text>
+<circle cx="1030" cy="590" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="595" text-anchor="end" class="num">35</text><text x="978" y="595" text-anchor="end" class="pin">ADC_VREF</text>
+<circle cx="730" cy="626" r="10" fill="#f4bf4b" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="631" class="num">7</text><text x="782" y="631" class="pin">GP5</text>
+<circle cx="1030" cy="626" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="631" text-anchor="end" class="num">34</text><text x="978" y="631" text-anchor="end" class="pin">GP28</text>
+<circle cx="730" cy="662" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="667" class="num">8</text><text x="782" y="667" class="pin">GND</text>
+<circle cx="1030" cy="662" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="667" text-anchor="end" class="num">33</text><text x="978" y="667" text-anchor="end" class="pin">AGND</text>
+<circle cx="730" cy="698" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="703" class="num">9</text><text x="782" y="703" class="pin">GP6</text>
+<circle cx="1030" cy="698" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="703" text-anchor="end" class="num">32</text><text x="978" y="703" text-anchor="end" class="pin">GP27</text>
+<circle cx="730" cy="734" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="739" class="num">10</text><text x="782" y="739" class="pin">GP7</text>
+<circle cx="1030" cy="734" r="10" fill="#f4bf4b" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="739" text-anchor="end" class="num">31</text><text x="978" y="739" text-anchor="end" class="pin">GP26</text>
+<circle cx="730" cy="770" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="775" class="num">11</text><text x="782" y="775" class="pin">GP8</text>
+<circle cx="1030" cy="770" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="775" text-anchor="end" class="num">30</text><text x="978" y="775" text-anchor="end" class="pin">RUN</text>
+<circle cx="730" cy="806" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="811" class="num">12</text><text x="782" y="811" class="pin">GP9</text>
+<circle cx="1030" cy="806" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="811" text-anchor="end" class="num">29</text><text x="978" y="811" text-anchor="end" class="pin">GP22</text>
+<circle cx="730" cy="842" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="847" class="num">13</text><text x="782" y="847" class="pin">GND</text>
+<circle cx="1030" cy="842" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="847" text-anchor="end" class="num">28</text><text x="978" y="847" text-anchor="end" class="pin">GND</text>
+<circle cx="730" cy="878" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="883" class="num">14</text><text x="782" y="883" class="pin">GP10</text>
+<circle cx="1030" cy="878" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="883" text-anchor="end" class="num">27</text><text x="978" y="883" text-anchor="end" class="pin">GP21</text>
+<circle cx="730" cy="914" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="919" class="num">15</text><text x="782" y="919" class="pin">GP11</text>
+<circle cx="1030" cy="914" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="919" text-anchor="end" class="num">26</text><text x="978" y="919" text-anchor="end" class="pin">GP20</text>
+<circle cx="730" cy="950" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="955" class="num">16</text><text x="782" y="955" class="pin">GP12</text>
+<circle cx="1030" cy="950" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="955" text-anchor="end" class="num">25</text><text x="978" y="955" text-anchor="end" class="pin">GP19</text>
+<circle cx="730" cy="986" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="991" class="num">17</text><text x="782" y="991" class="pin">GP13</text>
+<circle cx="1030" cy="986" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="991" text-anchor="end" class="num">24</text><text x="978" y="991" text-anchor="end" class="pin">GP18</text>
+<circle cx="730" cy="1022" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="1027" class="num">18</text><text x="782" y="1027" class="pin">GND</text>
+<circle cx="1030" cy="1022" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="1027" text-anchor="end" class="num">23</text><text x="978" y="1027" text-anchor="end" class="pin">GND</text>
+<circle cx="730" cy="1058" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="1063" class="num">19</text><text x="782" y="1063" class="pin">GP14</text>
+<circle cx="1030" cy="1058" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="1063" text-anchor="end" class="num">22</text><text x="978" y="1063" text-anchor="end" class="pin">GP17</text>
+<circle cx="730" cy="1094" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="750" y="1099" class="num">20</text><text x="782" y="1099" class="pin">GP15</text>
+<circle cx="1030" cy="1094" r="10" fill="#c4bb82" stroke="#173e30" stroke-width="2"/>
+<text x="1009" y="1099" text-anchor="end" class="num">21</text><text x="978" y="1099" text-anchor="end" class="pin">GP16</text>
+<path d="M500 520 H540 V265" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M500 520 H540 V265" fill="none" stroke="#283734" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1030 482 H1080 V265" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M1030 482 H1080 V265" fill="none" stroke="#283734" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1325 520 H1260 V265" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M1325 520 H1260 V265" fill="none" stroke="#283734" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M500 565 H580 V215" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M500 565 H580 V215" fill="none" stroke="#d43d42" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1030 554 H1120 V215" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M1030 554 H1120 V215" fill="none" stroke="#d43d42" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1325 565 H1220 V215" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M1325 565 H1220 V215" fill="none" stroke="#d43d42" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="540" cy="265" r="8" fill="#283734"/>
+<circle cx="1080" cy="265" r="8" fill="#283734"/>
+<circle cx="1260" cy="265" r="8" fill="#283734"/>
+<circle cx="580" cy="215" r="8" fill="#d43d42"/>
+<circle cx="1120" cy="215" r="8" fill="#d43d42"/>
+<circle cx="1220" cy="215" r="8" fill="#d43d42"/>
+
+
+<path d="M500 655 H640 V626 H730" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M500 655 H640 V626 H730" fill="none" stroke="#d9ae00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1030 734 H1230 V750 H1325" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M1030 734 H1230 V750 H1325" fill="none" stroke="#d9ae00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M500 610 H620 V590 H730" fill="none" stroke="#88979d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M500 610 H620 V590 H730" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="270" y="525" class="small" style="fill:#283734;font-weight:bold">czarny · GND</text><circle cx="500" cy="520" r="6" fill="#283734"/>
+<text x="270" y="570" class="small" style="fill:#c33737;font-weight:bold">czerwony · VCC</text><circle cx="500" cy="565" r="6" fill="#c33737"/>
+<text x="270" y="615" class="small" style="fill:#87939a;font-weight:bold">biały · SDA</text><circle cx="500" cy="610" r="6" fill="#87939a"/>
+<text x="270" y="660" class="small" style="fill:#b38b00;font-weight:bold">żółty · SCL</text><circle cx="500" cy="655" r="6" fill="#b38b00"/>
+<circle cx="1325" cy="520" r="6" fill="#283734"/><text x="1340" y="527" class="body" style="fill:#283734;font-weight:bold">czarny · GND</text>
+<circle cx="1325" cy="565" r="6" fill="#c33737"/><text x="1340" y="572" class="body" style="fill:#c33737;font-weight:bold">czerwony · VCC</text>
+<circle cx="1325" cy="750" r="6" fill="#b38b00"/><text x="1340" y="757" class="body" style="fill:#b38b00;font-weight:bold">żółty · SIG / AOUT</text>
+<path d="M1325 810 H1370" stroke="#aab4ba" stroke-width="8"/><path d="M1325 810 H1370" stroke="white" stroke-width="4"/><path d="M1375 801 L1393 819 M1393 801 L1375 819" stroke="#b43131" stroke-width="3"/>
+<text x="1407" y="816" class="small">biały: NIE PODŁĄCZAJ</text>
+<text x="123" y="683" class="small">SCHEMAT CZUJNIKA</text>
+
+<rect x="104" y="730" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="746" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="762" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="778" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="794" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="810" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="826" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="842" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="858" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="874" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="890" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="906" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="922" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="938" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="954" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="970" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="986" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="1002" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="1018" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="104" y="1034" width="82" height="9" rx="3" fill="#b4d39a"/>
+<rect x="60" y="1230" width="1680" height="140" rx="14" fill="#fff" stroke="#d5dfd7"/>
+<text x="85" y="1265" class="label">Jedno połączenie z Pico na każdą szynę</text>
+<text x="85" y="1300" class="body">3V3 OUT (pin 36) → szyna „+” → oba czerwone przewody.  GND (pin 38) → szyna „−” → oba czarne przewody.</text>
+<text x="85" y="1334" class="body">Sygnały bezpośrednio do Pico: SDA → GP4 (pin 6), SCL → GP5 (pin 7), TDS → GP26 (pin 31).</text>
+<text x="65" y="1404" class="small">Kropka = połączenie. Skrzyżowanie bez kropki = osobne przewody. Korzystaj z jednego ciągłego odcinka każdej szyny.</text>
+</svg>
