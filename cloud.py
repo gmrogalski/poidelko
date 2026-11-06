@@ -55,6 +55,7 @@ class CloudPublisher:
             raise ValueError("Klucz Adafruit nie moze zawierac nowej linii")
         self.enabled = bool(self.username and self.key and self.feed)
         self.next_due = time.ticks_ms()
+        self.time_synced = False
 
     def publish(self, reading, low_level_mm=20):
         payload = {name: reading.get(name) for name in PUBLIC_FIELDS}
@@ -83,10 +84,11 @@ class CloudPublisher:
         # Zarowno sukces, jak i blad ogranicza tempo kolejnych prob.
         self.next_due = time.ticks_add(time.ticks_ms(), self.interval)
         try:
-            if time.gmtime()[0] < 2025:
+            if not self.time_synced:
                 import ntptime
                 ntptime.timeout = 2
                 ntptime.settime()
+                self.time_synced = True
             self.publish(reading, low_level_mm)
             print("CHMURA: wyslano pomiar do Adafruit IO")
         except (OSError, ValueError, ImportError) as error:
